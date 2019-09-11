@@ -17,7 +17,7 @@ public abstract class Tests {
 		System.out.println(playlist(songs));
 	}
 	
-	// count no. of substrings that are palindrome
+	//Palindrome counter : count no. of substrings that are palindrome
 	public static int countPalindromes(String s)
 	{
 		int count =0;
@@ -37,7 +37,7 @@ public abstract class Tests {
 	    return (reverse.toString()).equals(input);
 	}
 	
-	/* music playlist which has a complete minute(u can select single song(60sec or multiple of 60) 
+	/* Whole Minute Dilemma : music playlist which has a complete minute(u can select single song(60sec or multiple of 60) 
 	 * or in pairs of songs which add up to whole minute(or minutes). Given a list of song durations,
 	 * Calculate no. of different pairs of songs that can be chosen
 	 *  
